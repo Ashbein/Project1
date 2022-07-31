@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+
+            /* fraction ratio: take same width */
+            /* one row = if(1fr 1fr 1fr)= 3 items......... */
+            /* fr , px, % */
+            /* grid-template-columns: 1px 1px 1px 1px; */
+            /* grid-template-columns: 1% 1% 1% 1%; */
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 200px 300px 100px;
+            /* grid-template-rows: 200px 300px 100px;  (200px for 1st row ,300px for 2nd row height,& 100px for 3rd row height )*/
+            /* grid-gap: row-gap and column gap */
+            grid-gap: 20px;
+
+        }
+        .div1{
+               
+            background-color: black;
+        }
+        img{
+            height: 200px;
+            width: 200px;
+            display: flex;
+            justify-content: center;
+        }
+        h1{
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="div1">
+            <img src="https://omnifood.dev/img/meals/meal-2.jpg" alt="">
+            <h1>hello world</h1>
+        </div>
+        <div class="div1">
+            <img src="https://omnifood.dev/img/meals/meal-2.jpg" alt="">
+            <h1>hello world</h1>
+        </div>
+        <div class="div1">
+            <img src="https://omnifood.dev/img/meals/meal-2.jpg" alt="">
+            <h1>hello world</h1>
+        </div>
+        <div class="div1">
+            <img src="https://omnifood.dev/img/meals/meal-2.jpg" alt="">
+            <h1>hello world</h1></div>
+        <div class="div1">
+            <img src="https://omnifood.dev/img/meals/meal-2.jpg" alt="">
+            <h1>hello world</h1>
+        </div>
+        <div class="div1">
+            <img src="https://omnifood.dev/img/meals/meal-2.jpg" alt="">
+            <h1>hello world</h1>
+        </div>
+        <div class="div1">
+            <img src="https://omnifood.dev/img/meals/meal-2.jpg" alt="">
+            <h1>hello world</h1>
+        </div>
+        <div class="div1">
+            <img src="https://omnifood.dev/img/meals/meal-2.jpg" alt="">
+            <h1>hello world</h1>
+        </div>
+        <div class="div1">
+            <img src="https://omnifood.dev/img/meals/meal-2.jpg" alt="">
+            <h1>hello world</h1>
+        </div>
+
+    </div>
+</body>
+</html>
